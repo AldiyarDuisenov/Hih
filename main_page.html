@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico">
+  <title>Skyline r34</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+    .zerohead {
+      background-color: black;
+      width: 102%;
+      margin: -10px -10px 0;
+      padding: 5px 0 1px;
+    }
+
+    .zerologo {
+      margin: 20 auto 0;
+      height: 60px;
+
+      border: 0px solid orange;
+    }
+
+    body {}
+
+    .firstpage {
+      border: 1px solid black;
+      height: 105%;
+      background-image: url("r34.jpg");
+      margin: 0 -10px 0;
+    }
+
+    .firsttopic {
+      padding-top: 100px;
+      margin-bottom: 0;
+      font-family: 'Nunito Sans';
+      font-size: 60px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .firsttext {
+      padding-top: 0;
+      font-family: 'Nunito Sans';
+      color: white;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    .firstbutton {
+      font-family: 'Nunito Sans';
+      letter-spacing: 1.5px;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 320px;
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 30px;
+      color: white;
+      background-color: RGB(17, 35, 55);
+      font-weight: 600;
+      href="join.html";
+    }
+
+    .secondpecialbg {
+      background-color: black;
+      margin: 0 -10px;
+      padding: 70px 0;
+    }
+
+    .secondpage {
+      background-color: black;
+      height: 100%;
+      width: 1110px;
+      margin: 0 auto;
+    }
+
+    .secondblocks {
+      min-height: 330px;
+    }
+
+    .secondimg1 {
+      padding: 0;
+      display: flex;
+      float: right;
+    }
+
+    .secondtext1 {
+      margin: 100px 50px;
+      padding: 10px;
+      border: 0px solid red;
+      float: right;
+      font-family: 'Nunito Sans';
+      color: white;
+      font-weight: 400;
+      width: 300px;
+      font-size: 16px;
+    }
+
+    .secondimg2 {
+      padding: 0;
+      background-color: black;
+      display: flex;
+      float: left;
+    }
+
+    .secondtext2 {
+
+      margin: 100px 50px;
+      padding: 10px;
+      border: 0px solid red;
+      float: left;
+      font-family: 'Nunito Sans';
+      color: white;
+      font-weight: 400;
+      width: 300px;
+      font-size: 16px;
+    }
+
+    .secondimg3 {
+      padding: 0;
+      background-color: black;
+      display: flex;
+      float: right;
+    }
+
+    .secondtext3 {
+      margin: 100px 50px;
+      padding: 10px;
+      border: 0px solid red;
+      float: right;
+      font-family: 'Nunito Sans';
+      color: white;
+      font-weight: 400;
+      width: 300px;
+      font-size: 16px;
+    }
+
+    .thirdpage {
+      margin: -10px -10px 0;
+      min-height: 740px;
+    }
+
+    .thirdimg {
+      margin-right: 30px;
+      background-color: black;
+      display: flex;
+      float: left;
+    }
+
+    .thirdtext {
+      font-size: 16px;
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      padding: 50px 60px 0 0;
+
+    }
+
+    }
+
+    .fourthpage {
+      margin: 150px auto 0;
+    }
+
+    .fourthinsteadsvg {
+      height: 50%;
+      width: 50%;
+      margin: 10px auto 5px;
+      padding: 0;
+      font-size: 80px;
+    }
+
+    .fourthborder {
+      margin-top: 10px;
+      background-color: white;
+      display: flex;
+
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .fourthtopic {
+      margin-top: 100px;
+      color: black;
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Nunito Sans';
+      font-weight: 600;
+    }
+
+    .fourtblocks {
+      text-align: center;
+      width: 20%;
+      padding: 10px 0;
+      margin: 10px;
+    }
+
+    .fourthimg {
+      margin: 5px 0;
+      height: 50%;
+      width: 50%
+    }
+
+    .fourthcomplect {
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      font-size: 28px;
+      padding: 5px;
+      margin: 0;
+    }
+
+    .fourthprice {
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      color: grey;
+      padding: 5px;
+      margin: 0;
+      font-size: 16px;
+    }
+
+    li {
+      max-height: 50px;
+      padding: 20px 10px 0;
+      min-height: 40px;
+      list-style-type: none;
+      font-size: 16px;
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+    }
+
+    .fourthlilinfo {
+      font-size: 16px;
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      color: grey;
+      margin: -10px 0 0 0;
+      padding: 0;
+      height: 40px;
+    }
+
+    .fourthbutton {
+
+      font-family: 'Nunito Sans';
+      letter-spacing: 1.5px;
+      text-align: center;
+      margin-top: 10px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: white;
+      border: 0px solid black;
+      background-color: blue;
+      font-weight: 600;
+    }
+
+    .fifthpage {}
+
+    .fifthimg {
+      width: 102%;
+
+      margin: 70px -20px -150px;
+    }
+
+    .fifthholder {
+      margin: 0 -20px 0;
+      padding: 0;
+      display: flex;
+      background-color: black;
+
+
+    }
+
+    .fifthtopic {
+      color: white;
+      font-size: 40px;
+      font-family: 'Nunito Sans';
+      text-align: center;
+      float: left;
+      margin: 0 100px 0 300px;
+      width: 300px;
+      font-weight: 600;
+      padding: 70px 0 0;
+      height: 200px;
+    }
+
+    .fifthbutton {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      padding: 10px 20px;
+      letter-spacing: 1.5px;
+      border: 2px solid white;
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      font-family: 'Nunito Sans';
+      font-weight: 600;
+
+    }
+
+    .fifthtext {
+      margin: 10px 0 0px 0;
+      padding: 70px 250px 180px 0;
+      font-size: 16px;
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      display: flex;
+      color: white;
+    }
+
+    .sixthpage {
+      width: 1110px;
+      margin: 70px auto 0;
+      text-align: center;
+    }
+
+    .sixthmap {
+      margin: 0 auto;
+    }
+
+    .sixthtopic {
+      font-size: 40px;
+      color: black;
+      font-family: 'Nunito Sans';
+      weight: 600;
+
+      margin: 0;
+    }
+
+    .sixthinfo {
+      font-size: 28px;
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      color: grey;
+
+      margin: 0 auto 20px;
+    }
+
+    .bottom {
+      margin: 70px -10px 0;
+      padding: 30px;
+      height: 150px;
+      background-color: black;
+    }
+
+    .bottomhr {
+      border: 1px solid grey;
+      color: grey;
+    }
+
+    .secondspan {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .thirdspan {
+      font-size: 36px;
+      font-weight: 600;
+
+    }
+
+    .inimg {
+
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .inimgblocks {
+      text-align: center;
+      width: 120px;
+      padding: 10px;
+      margin: 0 20px 0;
+    }
+
+    .inimgtopic {
+      color: white;
+      font-size: 28px;
+      font-family: 'Nunito Sans';
+      font-weight: 600;
+      margin: 10px auto;
+
+    }
+
+    .inimgtext {
+      color: white;
+      font-size: 16px;
+      font-family: 'Nunito Sans';
+      font-weight: 300;
+      margin: 10px auto;
+    }
+    }
+  </style>
+</head>
+
+<body>
+  <!--USELESSHEAD-->
+  <div class="zerohead">
+    <center>
+      <img class="zerologo" src="svgs/logo.png" alt="logo">
+    </center>
+  </div>
+
+  <div class="firstpage">
+    <center>
+      <h1 class="firsttopic">Nissan Skyline</h1>
+      <h2 class="firsttext">R34 SKYLINE GT-R</h2>
+      <form method="get" action="join.html">
+        <button class="firstbutton">ORDER NOW</button>
+      </form>
+    </center>
+    <dev class="inimg">
+      <dev class="inimgblocks">
+        <p class="inimgtopic">490kmph</p>
+        <p class="inimgtext">highest speed</p>
+      </dev>
+      <dev class="inimgblocks">
+        <p class="inimgtopic">0.89sec</p>
+        <p class="inimgtext">0-100 kmph</p>
+      </dev>
+      <div class="inimgblocks">
+        <p class="inimgtopic">1590hp</p>
+        <p class="inimgtext">peak power</p>
+      </div>
+    </dev>
+  </div>
+  <div class="secondpecialbg">
+    <div class="secondpage">
+      <div class="secondblocks">
+        <img class="secondimg1" src="engine1.jpg" alt="photo" width="50%" height="330px">
+        <p class="secondtext1"><span class="secondspan">Legendary Nissan RB</span>
+          <br>
+          <br>
+
+
+
+          Feel the speed and power of a unique naturally aspirated engine.
+        </p>
+      </div>
+      <div class="secondblocks">
+        <img class="secondimg2" src="back1.jpg" alt="photo" width="50%" height="330px">
+        <p class="secondtext2"> <span class="secondspan">Optimized Aerodynamics</span>
+          <br>
+          <br>
+
+          Attention to detail on all exterior surfaces makes GT-R the most aerodynamic production car on Earth.
+        </p>
+      </div>
+      <div class="secondblocks">
+        <img class="secondimg3" src="interior.jpg" alt="photo" width="50%" height="330px">
+        <p class="secondtext3"><span class="secondspan">Stay Connected</span>
+          <br>
+          <br>
+          Multi-device Bluetooth, wireless and USB-C charging for every passenger, with enough power to fast-charge your tablets and laptop.
+        </p>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="thirdpage">
+    <img class="thirdimg" src="bluesky10.jpg" alt="photo" height="740px">
+    <p class="thirdtext"><span class="thirdspan">ICONIC</span><br><br>
+      The R34 Skyline GT-R was introduced in 1998, and was available from 1998-2002. A technologically advanced display unit set the model apart, while it’s RB26DETT twin-turbo I6 engine produced an impressive horsepower. The shorter wheelbase and
+      more streamlined body of the R34 helped it to achieve even higher performance than its predecessors.</p>
+  </div>
+  <div class="fourthpage">
+    <h4 class="fourthtopic">Which complectation is right for you?</h4>
+    <div class="fourthborder">
+      <div class="fourtblocks">
+        <ul>
+          <h3 class="fourthcomplect"> Lux</h3>
+          <h4 class="fourthprice">from $119 420</h4>
+          <hr>
+          <p class="fourthinsteadsvg"> V8</p>
+          <li>Nissan RB engine</li>
+          <p class="fourthlilinfo">540hp atleast</p>
+          <p class="fourthinsteadsvg"> A/T</p>
+          <li>Automatic transmission</li>
+          <p class="fourthlilinfo"></p>
+          <p class="fourthinsteadsvg"> 4WD</p>
+          <li>Full-Wheel drive</li>
+          <p class="fourthlilinfo">wd+ technology</p>
+          <img class="fourthimg" src="svgs/hp.svg" alt="photo">
+          <li>1160hp</li>
+          <p class="fourthlilinfo"> bi-turbo</p>
+          <hr>
+          <form method="get" action="join.html">
+            <button class="fourthbutton">Buy</button>
+          </form>
+        </ul>
+      </div>
+      <div class="fourtblocks">
+        <ul>
+          <h3 class="fourthcomplect"> Premium</h3>
+          <h4 class="fourthprice">from $69 420</h4>
+          <hr>
+          <p class="fourthinsteadsvg"> V8</p>
+          <li>Nissan RB engine</li>
+          <p class="fourthlilinfo">540hp atleast</p>
+          <p class="fourthinsteadsvg"> M/T</p>
+          <li>&#160;&#160; Manual &#160;&#160; transmission</li>
+          <p class="fourthlilinfo"></p>
+          <p class="fourthinsteadsvg"> 4WD</p>
+          <li>Full-Wheel drive</li>
+          <p class="fourthlilinfo"></p>
+          <img class="fourthimg" src="svgs/hp.svg" alt="photo">
+          <li>960hp</li>
+          <p class="fourthlilinfo">turbo</p>
+          <hr>
+          <form method="get" action="join.html">
+            <button class="fourthbutton">Buy</button>
+          </form>
+        </ul>
+      </div>
+      <div class="fourtblocks">
+        <ul>
+          <h3 class="fourthcomplect"> Custom</h3>
+          <h4 class="fourthprice">from $59 999</h4>
+          <hr>
+          <p class="fourthinsteadsvg"> V6</p>
+          <li>Nissan RB engine</li>
+          <p class="fourthlilinfo">540hp atleast</p>
+          <p class="fourthinsteadsvg"> M/T</p>
+          <li>&#160;&#160; Manual &#160;&#160; transmission</li>
+          <p class="fourthlilinfo"></p>
+          <p class="fourthinsteadsvg"> 2WD</p>
+          <li>Rear drive</li>
+          <p class="fourthlilinfo">wd+ technology</p>
+          <img class="fourthimg" src="svgs/hp.svg" alt="photo">
+          <li>Custom</li>
+          <p class="fourthlilinfo">740hp stock</p>
+          <hr>
+          <form method="get" action="join.html">
+            <button class="fourthbutton">Buy</button>
+          </form>
+        </ul>
+      </div>
+      <div class="fourtblocks">
+        <ul>
+          <h3 class="fourthcomplect"> Base</h3>
+          <h4 class="fourthprice">from $34 200</h4>
+          <hr>
+          <p class="fourthinsteadsvg"> V4</p>
+          <li>Nissan RB engine</li>
+          <p class="fourthlilinfo">540hp atleast</p>
+          <p class="fourthinsteadsvg"> A/T</p>
+          <li>Automatic transmission</li>
+          <p class="fourthlilinfo"></p>
+          <p class="fourthinsteadsvg"> 2WD</p>
+          <li>Two-whell drive</li>
+          <p class="fourthlilinfo">front-wheel</p>
+          <img class="fourthimg" src="svgs/hp.svg" alt="photo">
+          <li>Custom</li>
+          <p class="fourthlilinfo">740hp stock</p>
+          <hr>
+          <form method="get" action="join.html">
+            <button class="fourthbutton">Buy</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="fifthpage">
+    <img class="fifthimg" src="redgtr1.jpeg" alt="photo">
+    <dev class="inimg">
+      <dev class="inimgblocks">
+        <p class="inimgtopic">9.5L</p>
+        <p class="inimgtext">Fuel consumption</p>
+      </dev>
+      <dev class="inimgblocks">
+        <p class="inimgtopic">+200.000</p>
+        <p class="inimgtext">sales around the world</p>
+      </dev>
+      <dev class="inimgblocks">
+        <p class="inimgtopic">2.5L</p>
+        <p class="inimgtext">engine volume</p>
+      </dev>
+    </dev>
+    <div class="fifthholder">
+      <div class="fifthtopic">Beyond Ludicrous
+        <form method="get" action="join.html">
+          <button class="fifthbutton">ORDER NOW</button>
+          </from>
+      </div>
+      <div class="fifthtext">With the longest range and quickest acceleration of any electric vehicle in production, Skyline GT-R is the highest performing sedan ever built. Both Long Range and Plaid powertrains, with updated battery architecture,
+        are capable of back-to-back, consistent 1/4 mile runs.
+      </div>
+    </div>
+    <div class="sixthpage">
+      <h1 class="sixthtopic">Find deallers nearby</h1>
+      <h2 class="sixthinfo">or visit main office</h2>
+    </div>
+    <div class="sixthmap">
+      <center><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13972.032688499483!2d139.62608445234912!3d35.462419663314556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x26ed9edb78dbd6a4!2sNissan%20Global%20Headquarter!5e0!3m2!1sru!2skz!4v1612457366791!5m2!1sru!2skz"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </center>
+    </div>
+  </div>
+  <div class="bottom">
+    <hr class="bottomhr">
+  </div>
+</body>
+
+</html>
